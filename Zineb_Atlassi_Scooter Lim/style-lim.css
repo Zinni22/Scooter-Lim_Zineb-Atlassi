@@ -1,0 +1,67 @@
+body{
+  background-image: url(img/background.jpg);
+  background-size: cover;
+  padding-top: 40px;
+  box-sizing: border-box;
+  color:white;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.container{
+  width:70%;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin:auto;
+  border-radius: 20px;
+  padding:60px;
+  box-sizing: border-box;
+}
+
+/* header */
+header{
+  text-align:center;
+}
+.logo{
+  width:180px;
+}
+header > h1{
+  font-weight:500;
+  font-size: 25px;
+  color:#32ff47;
+}
+.options{
+  width:100%;
+  background-color: #32ff47;
+  padding:5px;
+}
+
+
+/* parte centrale */
+.monopattini{
+  margin-top:20px;
+}
+.monopattini h2{
+  display: inline-block;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+.monopattini p:before{
+  content: "\2192";
+}
+
+.carica{
+  border-radius:5px;
+  height:25px;
+}
+.carica.arancione{
+  width:350px;
+  background-color:orange;
+}
+.carica.verde{
+  width:650px;
+  background-color:green;
+}
+.carica.rossa{
+  width:200px;
+  background-color:red;
+}
